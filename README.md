@@ -10,6 +10,7 @@ Create dockerfile to customise UBI10 image to:
 - disable all enabled repositoriesrepositories
 - enable ubi10 repositories
 - install EPEL repository from rpm
-- Install Centos Stream repositories from rpm and update to make sure latest version of repository file is installed.
-- Enable CRB repository
+- Install Centos Stream repositories from rpm
+- ~~update to make sure latest version of repository file is installed.~~
+- ~~Enable usr/bin/crb~~
 - install the following packages: jq composer ImageMagick-libs ImageMagick mariadb-client-utils
