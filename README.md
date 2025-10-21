@@ -7,11 +7,11 @@ Currently based on the php83 UBI container that is based on PHP 8.3.
 ## Current modifications from upstream UBI package:
 
 Create dockerfile to customise UBI10 image to:
-- disable all enabled repositoriesrepositories
+- disable all enabled repositories
 - enable ubi10 repositories
 - install EPEL repository from rpm
 - Install Centos Stream repositories from rpm
-- ~~update to make sure latest version of repository file is installed.~~
+- dnf update epel* and centos* to make sure latest version of repository files are installed.
 - ~~Enable usr/bin/crb~~
 - install the following packages:
     - jq
