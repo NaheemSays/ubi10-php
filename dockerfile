@@ -10,7 +10,7 @@ USER 0
 #RUN dnf config-manager --set-enabled ubi10*
 RUN dnf -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm
 RUN dnf -y --nogpgcheck install https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-10.0-8.el10.noarch.rpm https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-8.el10.noarch.rpm
-#RUN dnf -y update centos*
+RUN dnf -y update epel* centos*
 #RUN /usr/bin/crb enable
 RUN dnf -y install jq composer ImageMagick-libs ImageMagick mariadb-client-utils
 RUN dnf -y clean all
