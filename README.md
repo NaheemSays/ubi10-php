@@ -21,3 +21,5 @@ Create dockerfile to customise UBI10 image to:
     - mariadb-client-utils
     - Python and dependencies
     - Weasyprint
+
+See Dockerfile for full list.
