@@ -19,3 +19,5 @@ Create dockerfile to customise UBI10 image to:
     - ImageMagick-libs
     - ImageMagick
     - mariadb-client-utils
+    - Python and dependencies
+    - Weasyprint
