@@ -9,8 +9,8 @@ RUN set -eux; \
     dnf -y install \
         https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm && \
     dnf -y --nogpgcheck install \
-        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-10.0-8.el10.noarch.rpm \
-        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-8.el10.noarch.rpm && \
+        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-10.0-23.el10.noarch.rpm \
+        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-23.el10.noarch.rpm && \
     dnf -y install \
         --setopt=install_weak_deps=False \
         python3 \
@@ -55,8 +55,8 @@ RUN set -eux; \
     dnf -y install \
         https://dl.fedoraproject.org/pub/epel/epel-release-latest-10.noarch.rpm && \
     dnf -y --nogpgcheck install \
-        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-10.0-8.el10.noarch.rpm \
-        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-8.el10.noarch.rpm && \
+        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-gpg-keys-10.0-23.el10.noarch.rpm \
+        https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-23.el10.noarch.rpm && \
     dnf -y install \
         --setopt=install_weak_deps=False \
         python3 \
