@@ -61,6 +61,8 @@ RUN set -eux; \
         --setopt=install_weak_deps=False \
         python3 \
         jq \
+        composer \
+        ImageMagick \
         ImageMagick-libs \
         mariadb-client-utils \
         cairo \
