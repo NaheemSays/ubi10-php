@@ -13,6 +13,8 @@ RUN set -eux; \
         https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-23.el10.noarch.rpm && \
     dnf -y install \
         --setopt=install_weak_deps=False \
+        libzip \
+        php-pecl-zip \
         python3 \
         python3-pip \
         jq \
@@ -59,6 +61,8 @@ RUN set -eux; \
         https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/centos-stream-repos-10.0-23.el10.noarch.rpm && \
     dnf -y install \
         --setopt=install_weak_deps=False \
+        libzip \
+        php-pecl-zip \
         python3 \
         jq \
         composer \
