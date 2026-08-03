@@ -15,6 +15,7 @@ RUN set -eux; \
         --setopt=install_weak_deps=False \
         libzip \
         php-pecl-zip \
+        pddftk-java \
         python3 \
         python3-pip \
         jq \
@@ -63,6 +64,7 @@ RUN set -eux; \
         --setopt=install_weak_deps=False \
         libzip \
         php-pecl-zip \
+        pddftk-java \
         python3 \
         jq \
         composer \
