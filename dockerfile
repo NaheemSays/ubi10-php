@@ -70,6 +70,7 @@ RUN set -eux; \
         composer \
         ImageMagick \
         ImageMagick-libs \
+        php-pecl-imagick \
         mariadb-client-utils \
         cairo \
         pango \
