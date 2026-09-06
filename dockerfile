@@ -70,6 +70,7 @@ RUN set -eux; \
         composer \
         ImageMagick \
         ImageMagick-libs \
+        ImageMagick-heic \
         php-pecl-imagick \
         mariadb-client-utils \
         cairo \
